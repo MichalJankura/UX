@@ -1,0 +1,93 @@
+.plagat-container {
+    border-radius: 40px;
+    width: 838px;
+    height: 519px;
+    background-color: #275546;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+}
+
+.plagat-image {
+    height: 385px;
+    width: 265px;
+    border: #275546;
+    border-radius: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heart-image {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 30px;
+}
+
+.heart-image:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); /* Red glow */
+    border-radius: 30px;
+}
+
+.block-image {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    bottom: 10px;
+    left: 130px; /* Adjusted to be to the right of the heart-image */
+    transition: box-shadow 0.3s ease;
+    border-radius: 30px;
+}
+
+.block-image:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.7); /* Blue glow */
+    border-radius: 30px;
+}
+
+.plagat-info1 {
+    font-size: 48px;
+    font-family: "Open Sans", bold;
+    color: white;
+    position: absolute;
+    bottom: 100px; /* Adjusted to be above info2 */
+    left: 300px;
+}
+
+.plagat-info2 {
+    font-size: 48px;
+    font-family: "Open Sans", bold;
+    color: white;
+    position: absolute;
+    bottom: 40px; /* Adjusted to be above info3 */
+    left: 300px;
+}
+
+.plagat-info3 {
+    font-size: 48px;
+    font-family: "Open Sans", bold;
+    color: white;
+    position: absolute;
+    bottom: -20px; /* Positioned at the bottom */
+    left: 300px;
+}
+
+.map-image{
+    width: 538px;
+    height: 292px;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    right: 0;
+}
